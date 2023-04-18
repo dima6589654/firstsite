@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master">
-      <change afterPath="$PROJECT_DIR$/git_2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git_2/requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/git_1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/git_1/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/git_1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yutyrtrfd.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_1/requirements" afterDir="false" />
-    </list>
+    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +64,8 @@
       <recent name="C:\python_kan\ll37" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_kan\git_1" />
+      <recent name="C:\python_kan\git_2" />
       <recent name="C:\python_kan" />
       <recent name="C:\python_kan\ll37" />
       <recent name="C:\python_kan\dz" />
@@ -189,7 +180,7 @@
       <workItem from="1681669161453" duration="37000" />
       <workItem from="1681832169873" duration="2000" />
       <workItem from="1681840412883" duration="2686000" />
-      <workItem from="1681843153856" duration="2908000" />
+      <workItem from="1681843153856" duration="3298000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>

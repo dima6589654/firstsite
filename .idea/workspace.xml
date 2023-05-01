@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master" />
+    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master">
+      <change afterPath="$PROJECT_DIR$/.idea/python_kan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +16,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +48,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/python_kan/git_1",
     "list.type.of.created.stylesheet": "CSS",
@@ -180,7 +184,8 @@
       <workItem from="1681669161453" duration="37000" />
       <workItem from="1681832169873" duration="2000" />
       <workItem from="1681840412883" duration="2686000" />
-      <workItem from="1681843153856" duration="3687000" />
+      <workItem from="1681843153856" duration="3954000" />
+      <workItem from="1682926828049" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>

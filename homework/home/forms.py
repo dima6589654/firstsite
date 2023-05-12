@@ -1,8 +1,8 @@
 from django.forms import ModelForm
-from bboard.models import Bb
+from home.models import Bb
 
 
-class BbForm(ModelForm):
+class Home(ModelForm):
     class Meta:
         model = Bb
         fields = ('title', 'content', 'price', 'rubric')

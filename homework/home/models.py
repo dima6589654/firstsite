@@ -8,8 +8,6 @@ class Car(models.Model):
 
     def __str__(self):
         return self.title
-    def __str__(self):
-        return self.content
 
     class Meta:
         ordering = ['-pub_date']

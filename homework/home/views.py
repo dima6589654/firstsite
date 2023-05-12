@@ -6,7 +6,7 @@ def about(request):
 
 
 def home(request):
-    context = {"work": "Главная страница сайта"}
+    context = {"work": ""}
 
     return render(request, 'home.html',context)
 

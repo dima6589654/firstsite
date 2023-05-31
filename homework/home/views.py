@@ -13,7 +13,6 @@ class PersonFormView(View):
     def post(request):
         form = PersonForm(request.POST)
         if form.is_valid():
-            # Обработка валидной формы
             form.save()
             return render(request, 'person_success.html')
         return render(request, 'person_form.html', {'form': form})
@@ -29,7 +28,6 @@ class ChildFormView(View):
     def post(request):
         form = ChildForm(request.POST)
         if form.is_valid():
-            # Обработка валидной формы
             form.save()
             return render(request, 'child_success.html')
         return render(request, 'child_form.html', {'form': form})
@@ -45,7 +43,6 @@ class IceCreamFormView(View):
     def post(request):
         form = IceCreamForm(request.POST)
         if form.is_valid():
-            # Обработка валидной формы
             form.save()
             return render(request, 'icecream_success.html')
         return render(request, 'icecream_form.html', {'form': form})
@@ -61,7 +58,6 @@ class IceCreamKioskFormView(View):
     def post(request):
         form = IceCreamKioskForm(request.POST)
         if form.is_valid():
-            # Обработка валидной формы
             form.save()
             return render(request, 'kiosk_success.html')
         return render(request, 'kiosk_form.html', {'form': form})

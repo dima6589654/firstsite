@@ -77,23 +77,22 @@ class Bb(models.Model):
         choices=KINDS,
         default='S'
     )
-
-    class Bb(models.Model):
-        my_list = models.TextField(
-            verbose_name="Список",
-            null=True,
-            blank=True
+    my_list = models.TextField(
+        verbose_name="Список",
+        null=True,
+        blank=True
         )
 
-        def save(self, *args, **kwargs):
-            super().save(*args, **kwargs)
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
 
-            # Создание экземпляров модели Bb
-            Bb.objects.create(title="Запись 1", my_list="Одиночная запись")
-            for i in range(5):
-                title = f"Запись {i + 1}"
-                my_list = f"Запись {i + 1} в цикле"
-                Bb.objects.create(title=title, my_list=my_list)
+        # Создание экземпляров модели Bb
+        Bb.objects.create(title="Запись 1", my_list="Одиночная запись")
+        for i in range(5):
+            title = f"Запись {i + 1}"
+            my_list = f"Запись {i + 1} в цикле"
+            Bb.objects.create(title=title, my_list=my_list)
+
 
     def __str__(self):
         return f'Объявление: {self.title}'

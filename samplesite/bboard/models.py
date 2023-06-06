@@ -25,6 +25,8 @@ class Rubric(models.Model):
         return self.name
 
     def get_absolute_url(self):
+        # return "/bboard/%s/" % self.pk
+        # return f"/bboard/{self.pk}/"
         return f"/{self.pk}/"
 
     class Meta:
@@ -35,9 +37,9 @@ class Rubric(models.Model):
 
 class Bb(models.Model):
     KINDS = (
-        ("B", "куплю"),
-        ("S", "продам"),
-        ("C", "поменяю"),
+        ('b', 'Куплю'),
+        ('s', 'Продам'),
+        ('c', 'Поменяю')
     )
 
     rubric = models.ForeignKey(
@@ -52,6 +54,12 @@ class Bb(models.Model):
         verbose_name="Товар",
         validators=[validators.MinLengthValidator(get_min_length)],
         error_messages={'min_length': 'Слишком мало символов'},
+    )
+
+    kind = models.CharField(
+        max_length=1,
+        choices=KINDS,
+        default='s'
     )
 
     content = models.TextField(
@@ -72,27 +80,6 @@ class Bb(models.Model):
         db_index=True,
         verbose_name="Опубликовано",
     )
-    kind = models.CharField(
-        max_length=1,
-        choices=KINDS,
-        default='S'
-    )
-    my_list = models.TextField(
-        verbose_name="Список",
-        null=True,
-        blank=True
-        )
-
-    def save(self, *args, **kwargs):
-        super().save(*args, **kwargs)
-
-        # Создание экземпляров модели Bb
-        Bb.objects.create(title="Запись 1", my_list="Одиночная запись")
-        for i in range(5):
-            title = f"Запись {i + 1}"
-            my_list = f"Запись {i + 1} в цикле"
-            Bb.objects.create(title=title, my_list=my_list)
-
 
     def __str__(self):
         return f'Объявление: {self.title}'

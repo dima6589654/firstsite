@@ -28,6 +28,14 @@ def index(request):
     bbs = Bb.objects.order_by('-published')
     rubrics = Rubric.objects.all()
 
+    for bb in bbs:
+        if not bb.title.endswith(f' ({bb.id})'):
+            bb.title = f'{bb.title} ({bb.id})'
+            bb.save()
+    for bb in bbs:
+        if any(int(char) % 2 != 0 for char in bb.title if char.isdigit()):
+            bb.delete()
+
     result = Bb.objects.aggregate(
         min_price=Min('price'),
         max_price=Max('price'),

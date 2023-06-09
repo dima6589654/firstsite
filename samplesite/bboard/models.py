@@ -13,7 +13,6 @@ def validate_even(val):
         raise ValidationError('Число %(value)s нечётное', code='odd',
                               params={'value': val})
 
-
 class Rubric(models.Model):
     name = models.CharField(
         max_length=20,
@@ -25,8 +24,6 @@ class Rubric(models.Model):
         return self.name
 
     def get_absolute_url(self):
-        # return "/bboard/%s/" % self.pk
-        # return f"/bboard/{self.pk}/"
         return f"/{self.pk}/"
 
     class Meta:
@@ -59,7 +56,8 @@ class Bb(models.Model):
     kind = models.CharField(
         max_length=1,
         choices=KINDS,
-        default='s'
+        default='s',
+        verbose_name="Тип объявления"
     )
 
     content = models.TextField(
@@ -72,7 +70,7 @@ class Bb(models.Model):
         null=True,
         blank=True,
         verbose_name="Цена",
-        validators=[validate_even]  # , MinMaxValueValidator(50, 60_000_000)]
+        validators=[validate_even]
     )
 
     published = models.DateTimeField(

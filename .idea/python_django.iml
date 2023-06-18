@@ -14,7 +14,8 @@
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/firstsite/home_work3/homework/work3/templates" />
+        <option value="$MODULE_DIR$/samplesite/testapp/templates" />
+        <option value="$MODULE_DIR$/samplesite/templates" />
       </list>
     </option>
   </component>

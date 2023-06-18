@@ -1,0 +1,12 @@
+{% block content %}
+  <h1>Лист СМС</h1>
+  <ul>
+    {% for sms in sms_list %}
+      <li>
+        <a href="{% url 'testapp:read_sms' pk=sms.pk %}">{{ sms.comment }}</a>
+      </li>
+    {% empty %}
+      <li>.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

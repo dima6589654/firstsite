@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master">
+      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0009_bb_kind.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/migrations/0009_bb_kind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/templates/layout/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samplesite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/templates/testapp/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/templates/testapp/read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,39 +54,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/python_django/samplesite/manage.py&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/python_django/samplesite/templates/testapp",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_django\samplesite\templates\testapp" />
       <recent name="C:\python_kan\git_2" />
       <recent name="C:\python_kan\git_1" />
       <recent name="C:\python_kan\ll37" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_django\samplesite\templates\testapp" />
       <recent name="C:\python_kan\homework2" />
       <recent name="C:\python_kan" />
       <recent name="C:\python_kan\git_1" />
       <recent name="C:\python_kan\git_2" />
-      <recent name="C:\python_kan\ll37" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fill_db">
+  <component name="RunManager" selected="Python.runserver">
     <configuration name="fill_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,6 +203,10 @@
       <workItem from="1685981756260" duration="3948000" />
       <workItem from="1686059188571" duration="68000" />
       <workItem from="1686059482930" duration="2770000" />
+      <workItem from="1686236134026" duration="2537000" />
+      <workItem from="1686321973601" duration="4274000" />
+      <workItem from="1687017386697" duration="881000" />
+      <workItem from="1687107340634" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>

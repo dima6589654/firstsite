@@ -1,13 +1,9 @@
-{% extends "layout/basic.html" %}
-
-{% block title %}Отправка SMS{% endblock %}
 
 {% block content %}
-    <h2>Отправка SMS</h2>
-
-    <form action="" method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Отправить">
-    </form>
+  <h1>Создать SMS</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Создать</button>
+  </form>
 {% endblock %}

@@ -5,19 +5,81 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="origin master">
-      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplesite/templates/testapp/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/testapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/testapp/templates/testapp/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/testapp/templates/testapp/read.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/testapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/testapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/fixtures/bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/fixtures/rubric.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/management/commands/fill_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0001_squashed_0004_alter_bb_price_alter_bb_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0002_rubric_alter_bb_options_alter_bb_content_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0003_spare_alter_bb_options_machine_advuser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0004_alter_bb_price_alter_bb_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0005_remove_machine_spares_delete_advuser_delete_machine_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0006_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0007_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0008_bb_kind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0009_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0010_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0011_alter_bb_kind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/by_rubric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/bboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templates/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templatetags/count_bbs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/authapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/by_rubric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/0002_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +91,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -61,7 +123,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/python_django/samplesite/templates/testapp",
+    "last_opened_file_path": "C:/python_django/task_do/manage.py",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,20 +136,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_django\samplesite" />
+      <recent name="C:\python_django\task_do\bblist" />
+      <recent name="C:\python_django\task_do" />
       <recent name="C:\python_django\samplesite\templates\testapp" />
       <recent name="C:\python_kan\git_2" />
-      <recent name="C:\python_kan\git_1" />
-      <recent name="C:\python_kan\ll37" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_django" />
+      <recent name="C:\python_django\task_do\bblist\static" />
       <recent name="C:\python_django\samplesite\templates\testapp" />
       <recent name="C:\python_kan\homework2" />
       <recent name="C:\python_kan" />
-      <recent name="C:\python_kan\git_1" />
-      <recent name="C:\python_kan\git_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runserver">
+  <component name="RunManager" selected="Python.runserver_do">
     <configuration name="fill_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="runserver_do" type="PythonConfigurationType" factoryName="Python">
       <module name="python_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,12 +204,12 @@
       </envs>
       <option name="SDK_HOME" value="C:\python_django\venv\Scripts\python.exe" />
       <option name="SDK_NAME" value="Python 3.11 (python_django)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samplesite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_do" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samplesite/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_do/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +219,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.runserver" />
+      <item itemvalue="Python.runserver_do" />
       <item itemvalue="Python.fill_db" />
       <item itemvalue="Python.models" />
     </list>
@@ -206,7 +269,11 @@
       <workItem from="1686236134026" duration="2537000" />
       <workItem from="1686321973601" duration="4274000" />
       <workItem from="1687017386697" duration="881000" />
-      <workItem from="1687107340634" duration="2021000" />
+      <workItem from="1687107340634" duration="2434000" />
+      <workItem from="1687234958064" duration="1329000" />
+      <workItem from="1687320999657" duration="4750000" />
+      <workItem from="1687407698381" duration="72000" />
+      <workItem from="1687407781587" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -266,6 +333,6 @@
     <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_01.coverage" NAME="exam_01 Coverage Results" MODIFIED="1681299360163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1685898426431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
+    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1687408636404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
   </component>
 </project>

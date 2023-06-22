@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/firstsite/homework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/samplesite" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/task_do" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 (python_django)" jdkType="Python SDK" />
@@ -14,8 +16,8 @@
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/samplesite/testapp/templates" />
         <option value="$MODULE_DIR$/samplesite/templates" />
+        <option value="$MODULE_DIR$/task_do/bblist/templates" />
       </list>
     </option>
   </component>

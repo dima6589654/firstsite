@@ -1,6 +1,6 @@
-from django.shortcuts import render, get_object_or_404, redirect
-from bblist.forms import TaskForm
-from bblist.models import Task
+from django.shortcuts import render, redirect, get_object_or_404
+from .models import Task
+from .forms import TaskForm
 
 
 def task_list(request):
@@ -17,8 +17,8 @@ def create_task(request):
     if request.method == 'POST':
         form = TaskForm(request.POST)
         if form.is_valid():
-            task = form.save()
-            return redirect('task_detail', task_id=task.id)
+            form.save()
+            return redirect('task_list')
     else:
         form = TaskForm()
     return render(request, 'create_task.html', {'form': form})
@@ -29,8 +29,8 @@ def edit_task(request, task_id):
     if request.method == 'POST':
         form = TaskForm(request.POST, instance=task)
         if form.is_valid():
-            task = form.save()
-            return redirect('task_detail', task_id=task.id)
+            form.save()
+            return redirect('task_detail', task_id=task_id)
     else:
         form = TaskForm(instance=task)
     return render(request, 'edit_task.html', {'form': form, 'task': task})

@@ -1,33 +1,43 @@
 {% extends "layout/basic.html" %}
 
+{% load static %}
+
+{% block title %}Главная страница{% endblock %}
+
 {% block content %}
-
-    {% if user.is_authenticated %}
-    <h3>
-        <a href="{% url 'authapp:logout' %}">
-            Выйти ({{ user.username }})
-        </a>
-    </h3>
-    {% else %}
-        <h3>
-            <a href="{% url 'authapp:login' %}">
-                Войти
-            </a>
-        </h3>
-    {% endif %}
-
-    {% for bb in bbs %}
-        <div>
-{#            <h2>{{ bb.title }}</h2>#}
-            <h2>
-                <a href="{% url 'read' bb.pk %}">
-                    {{ bb.title_and_price }}
-                </a>
-            </h2>
-            <p>{{ bb.content }}</p>
-            <p><a href="{{ bb.rubric.get_absolute_url }}">
-                {{ bb.rubric.name }}</a></p>
-            <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                </div>
+            </div>
         </div>
-    {% endfor %}
+
+    <!-- Banner Ends Here -->
+
+    <!-- Featured Starts Here -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Объявления</h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        {% for bb in bbs %}
+                        <a href="{% url 'read' bb.pk %}">
+                            <div class="featured-item">
+                                <img src="{% static 'assets/images/item-05.jpg' %}" alt="Item 9">
+                                <h4>{{ bb.title }}</h4>
+                                <h6>{{ bb.price }}</h6>
+                            </div>
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Featred Ends Here -->
 {% endblock %}

@@ -1,29 +1,12 @@
-from django.urls import path, re_path
+from django.urls import path
 
-from bboard.views import index, by_rubric, BbCreateView, \
-    add_save, add, add_and_save, detail, BbByRubricView
-
-vals = {
-    'name': 'by_index',
-    'beaver': 'beaver – это бобёр!'
-}
-
-# app_name = 'bboard'
-
-# urlpatterns = [
-#     re_path(r'^$', index, name='index'),
-#     re_path(r'^(?P<rubric_id>[0-9]*)/$', by_rubric, vals, name='by_rubric'),
-#     re_path(r'^add/$', BbCreateView.as_view(), name='add'),
-# ]
+from bboard.views import IndexView, ByRubricView, BbCreateView, DetailView, AddView, AddSaveView
 
 urlpatterns = [
-    path('', index, name='index'),
-    # path('<int:rubric_id>/', by_rubric, vals, name='by_rubric'),
-    path('<int:rubric_id>/', BbByRubricView.as_view(), name='by_rubric'),
-    # path('add/', BbCreateView.as_view(), name='add'),
-    # path('add/save/', add_save, name='add_save'),
-    # path('add/', add, name='add'),
-    # path('add/', add_and_save, name='add'),
-    path('read/<int:rec_id>/', detail, name='read'),
+    path('', IndexView.as_view(), name='index'),
+    path('<int:rubric_id>/', ByRubricView.as_view(), name='by_rubric'),
     path('add/', BbCreateView.as_view(), name='add'),
+    # path('add/save/', AddSaveView.as_view(), name='add_save'),
+    # path('add/', AddView.as_view(), name='add'),
+    path('read/<int:rec_id>/', DetailView.as_view(), name='read'),
 ]

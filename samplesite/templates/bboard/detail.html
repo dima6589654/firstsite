@@ -2,19 +2,31 @@
 
 {% block content %}
 
-    <h1>Товар: {{ bb.title }}</h1>
-    <p>Цена: {{ bb.price }} тг.</p>
-    <p>Описание: {{ bb.content }}</p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-0 mt-lg-5">
+      <h1>Товар: {{ bb.title }}</h1>
+      <p>Цена: {{ bb.price }} тг.</p>
+      <p>Описание: {{ bb.content }}</p>
+    </div>
+  </div>
 
-    <h2 style="color: darkblue;">Похожие товары</h2>
-
+  <div class="row">
+            <div class="col-md-4 col-sm-12">
+      <h2 class="text-primary mt-4">Похожие товары</h2>
     {% for bb in bbs %}
-        <div>
-            <h2>{{ bb.title_and_price }}</h2>
-            <p>{{ bb.content }}</p>
-            <p><a href="{{ bb.rubric.get_absolute_url }}">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h2 class="card-title">{{ bb.title_and_price }}</h2>
+          <p class="card-text">{{  bb.content }}</p>
+     <p><a href="{{ bb.rubric.get_absolute_url }}">
                 {{ bb.rubric.name }}</a></p>
             <p>{{ bb.published|date:"d.m.Y H:i:s" }}</p>
         </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% endblock %}

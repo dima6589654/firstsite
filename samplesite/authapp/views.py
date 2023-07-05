@@ -2,12 +2,10 @@ from django.contrib import auth
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
-
 from authapp.forms import UserLoginForm
 
 
 def login(request):
-    title = "вход"
     login_form = UserLoginForm(data=request.POST)
 
     if request.method == 'POST' and login_form.is_valid():
@@ -18,14 +16,14 @@ def login(request):
 
         if user and user.is_active:
             auth.login(request, user)
+
+            # Запись данных запроса в файл
+            with open('request_logs.txt', 'a', encoding='utf-8') as file:
+                file.write(f"Запрос: username={username},password={password}, IP={request.META.get('REMOTE_ADDR')}\n")
+
             return HttpResponseRedirect(reverse('index'))
 
-    context = {
-        'title': title,
-        'login_form': login_form,
-    }
-
-    return render(request, 'authapp/login.html', context)
+    return render(request, 'authapp/login.html', {'login_form': login_form})
 
 
 def logout(request):

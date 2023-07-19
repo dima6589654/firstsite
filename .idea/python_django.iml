@@ -16,8 +16,8 @@
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/samplesite/templates" />
         <option value="$MODULE_DIR$/task_do/bblist/templates" />
+        <option value="$MODULE_DIR$/task_do/events/templates" />
       </list>
     </option>
   </component>

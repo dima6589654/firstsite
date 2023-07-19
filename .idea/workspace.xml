@@ -5,7 +5,191 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/tasks_due_today.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/tasks_ordered_by_due_date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/authapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/fixtures/bb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/fixtures/rubric.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/management/commands/fill_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0001_squashed_0004_alter_bb_price_alter_bb_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0002_rubric_alter_bb_options_alter_bb_content_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0003_spare_alter_bb_options_machine_advuser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0004_alter_bb_price_alter_bb_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0005_remove_machine_spares_delete_advuser_delete_machine_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0006_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0007_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0008_bb_kind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0009_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/0010_alter_bb_options_alter_bb_order_with_respect_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/css/flex-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/css/fontawesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/css/owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/css/tooplate-main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/flexslider-icon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/flexslider-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/flexslider-icon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/flexslider-icon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/about-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/basket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/big-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/big-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/big-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/big-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/header-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/item-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/product-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/thumb-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/thumb-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/thumb-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/images/thumb-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/js/flex-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/js/isotope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/assets/js/owl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/bboard/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templatetags/count_bbs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/request_logs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/salad/css1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/salad/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/salad/salad1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/authapp/all_users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/authapp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/authapp/user_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/authapp/user_detail_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/by_rubric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/includes/inc_main_menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/templates/testapp/read.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/0002_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/testapp/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,41 +231,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/python_django/samplesite/manage.py&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/python_django/task_do/events",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python_django\task_do\events" />
       <recent name="C:\python_django\samplesite" />
       <recent name="C:\python_django\task_do\bblist" />
       <recent name="C:\python_django\task_do" />
       <recent name="C:\python_django\samplesite\templates\testapp" />
-      <recent name="C:\python_kan\git_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_django" />
       <recent name="C:\python_django\samplesite\templates\authapp" />
       <recent name="C:\python_django\samplesite\bboard\static" />
       <recent name="C:\python_django\samplesite\bboard\static\bboard" />
       <recent name="C:\python_django\samplesite\salad" />
-      <recent name="C:\python_django\samplesite\templates\bboard" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runser">
+  <component name="RunManager" selected="Python.runserver_do">
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +398,7 @@
       <workItem from="1688492519100" duration="13189000" />
       <workItem from="1688573726218" duration="1409000" />
       <workItem from="1689475439064" duration="5456000" />
-      <workItem from="1689606697348" duration="678000" />
+      <workItem from="1689606697348" duration="6557000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -278,7 +462,7 @@
     <SUITE FILE_PATH="coverage/python_kan$task_37_01__1_.coverage" NAME="task_37_01 (1) Coverage Results" MODIFIED="1681668120379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__3_.coverage" NAME="task_36_01 (3) Coverage Results" MODIFIED="1681288910850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_02.coverage" NAME="exam_02 Coverage Results" MODIFIED="1681296595040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1687965881103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
+    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1689788938005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
     <SUITE FILE_PATH="coverage/python_kan$combinations_05.coverage" NAME="combinations_05 Coverage Results" MODIFIED="1681274403482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__2_.coverage" NAME="task_36_01 (2) Coverage Results" MODIFIED="1681288711345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)/HomeWork_36" />
     <SUITE FILE_PATH="coverage/python_kan$main.coverage" NAME="main Coverage Results" MODIFIED="1681145374670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

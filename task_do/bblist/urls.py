@@ -1,5 +1,4 @@
 from django.urls import path, re_path
-
 from bblist import views
 from bblist.views import task_list, delete_task, edit_task, task_detail, create_task
 

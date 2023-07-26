@@ -1,11 +1,17 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.core.paginator import Paginator
+from django.shortcuts import redirect, get_object_or_404
+from django.shortcuts import render
 from django.utils import timezone
-from .models import Task
+
 from bblist.forms import TaskForm
+from .models import Task
 
 
 def task_list(request):
     tasks = Task.objects.all()
+    paginator = Paginator(tasks, 2)
+    page = request.GET.get('page')
+    tasks = paginator.get_page(page)
     return render(request, 'task_list.html', {'tasks': tasks})
 
 

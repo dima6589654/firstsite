@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_task_listt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_20" />
+        <entry key="$PROJECT_DIR$" value="home_work_21" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,7 +220,7 @@
       <workItem from="1689475439064" duration="5456000" />
       <workItem from="1689606697348" duration="7032000" />
       <workItem from="1690222029501" duration="821000" />
-      <workItem from="1690374728091" duration="3148000" />
+      <workItem from="1690374728091" duration="4689000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>

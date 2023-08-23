@@ -17,3 +17,12 @@ class Task(models.Model):
     @classmethod
     def get_tasks_ordered_by_due_date(cls):
         return cls.objects.order_by('due_date')
+
+
+class IceCream(models.Model):
+    flavor = models.CharField(max_length=100, verbose_name="Вкус")
+    topping = models.CharField(max_length=100, verbose_name="Топпинг")
+    price = models.DecimalField(max_digits=10, decimal_places=1,verbose_name="Цена")
+
+    def __str__(self):
+        return f"{self.flavor} - {self.topping}"

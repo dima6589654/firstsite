@@ -3,13 +3,13 @@ from django.shortcuts import redirect, get_object_or_404
 from django.shortcuts import render
 from django.utils import timezone
 
-from bblist.forms import TaskForm
-from .models import Task
+from bblist.forms import TaskForm, IceCreamForm
+from .models import Task, IceCream
 
 
 def task_list(request):
     tasks = Task.objects.all()
-    paginator = Paginator(tasks, 2)
+    paginator = Paginator(tasks, 5)
     page = request.GET.get('page')
     tasks = paginator.get_page(page)
     return render(request, 'task_list.html', {'tasks': tasks})
@@ -60,3 +60,22 @@ def tasks_due_today(request):
 def tasks_ordered_by_due_date(request):
     tasks_ordered = Task.get_tasks_ordered_by_due_date()
     return render(request, 'tasks_ordered_by_due_date.html', {'tasks_ordered': tasks_ordered})
+
+
+def create_icecream(request):
+    if request.method == 'POST':
+        form = IceCreamForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('icecream_list')
+    else:
+        form = IceCreamForm()
+    return render(request, 'create_icecream.html', {'form': form})
+
+
+def icecream_list(request):
+    icecream = IceCream.objects.all()
+    paginator = Paginator(icecream, 5)
+    page = request.GET.get('page')
+    icecream = paginator.get_page(page)
+    return render(request, 'icecream_list.html', {'icecream': icecream})

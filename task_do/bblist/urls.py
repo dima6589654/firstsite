@@ -10,6 +10,9 @@ urlpatterns = [
     path('<int:task_id>/delete/', delete_task, name='delete_task'),
     path('tasks/due-today/', views.tasks_due_today, name='tasks_due_today'),
     path('tasks/ordered-by-due-date/', views.tasks_ordered_by_due_date, name='tasks_ordered_by_due_date'),
+    path('icecream-list/', views.icecream_list, name='icecream_list'),
+    path('create-icecream/', views.create_icecream, name='create_icecream'),
+
 ]
 
 

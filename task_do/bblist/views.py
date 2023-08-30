@@ -1,15 +1,14 @@
+# -*- coding: utf-8 -*-
+from django.shortcuts import render, redirect, get_object_or_404
 from django.core.paginator import Paginator
-from django.shortcuts import redirect, get_object_or_404
-from django.shortcuts import render
 from django.utils import timezone
-
-from bblist.forms import TaskForm, IceCreamForm
+from .forms import TaskForm, IceCreamForm
 from .models import Task, IceCream
 
 
 def task_list(request):
     tasks = Task.objects.all()
-    paginator = Paginator(tasks, 5)
+    paginator = Paginator(tasks, 1)
     page = request.GET.get('page')
     tasks = paginator.get_page(page)
     return render(request, 'task_list.html', {'tasks': tasks})
@@ -25,7 +24,13 @@ def create_task(request):
         form = TaskForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('task_list')
+            title = form.cleaned_data['title']
+            priority = form.cleaned_data['priority']
+            due_date = form.cleaned_data['due_date']
+            print(f"Заголовок: {title}, Приоритет: {priority}, Время выполнения: {due_date}")
+            return render(request, 'success.html', {'success_message': 'Задача успешно создана!'})
+        else:
+            return render(request, 'create_task.html', {'form': form, 'error_message': 'Произошла ошибка валидации'})
     else:
         form = TaskForm()
     return render(request, 'create_task.html', {'form': form})

@@ -7,7 +7,7 @@ from bblist.models import IceCream
 class TaskForm(forms.ModelForm):
     class Meta:
         model = Task
-        fields = ('title', 'priority', 'due_date')
+        fields = ('title','priority', 'due_date')
         widgets = {
             'due_date': DateTimeInput(attrs={'type': 'datetime-local'}),
         }

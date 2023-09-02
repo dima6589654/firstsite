@@ -5,14 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
-      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/error_message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0002_icecream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_icecream.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/create_icecream.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/create_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/delete_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/delete_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/edit_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/edit_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/error_message.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/error_message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/icecream_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/icecream_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_task_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_due_today.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/tasks_due_today.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_ordered_by_due_date.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/tasks_ordered_by_due_date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/task_do/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/task_do/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/task_do/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +54,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_25" />
+        <entry key="$PROJECT_DIR$" value="home_work_26" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,11 +103,11 @@
       <recent name="C:\python_django\samplesite\templates\testapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python_django\task_do\bblist\templates\registration" />
+      <recent name="C:\python_django\task_do" />
       <recent name="C:\python_django" />
-      <recent name="C:\python_django\samplesite\templates\authapp" />
-      <recent name="C:\python_django\samplesite\bboard\static" />
-      <recent name="C:\python_django\samplesite\bboard\static\bboard" />
-      <recent name="C:\python_django\samplesite\salad" />
+      <recent name="C:\python_django\task_do\bblist" />
+      <recent name="C:\python_django\task_do\task_do" />
     </key>
   </component>
   <component name="RunManager" selected="Python.runserver_do">
@@ -257,6 +279,8 @@
       <workItem from="1693156144282" duration="49000" />
       <workItem from="1693319669405" duration="21000" />
       <workItem from="1693413500325" duration="2415000" />
+      <workItem from="1693639643428" duration="7359000" />
+      <workItem from="1693655624671" duration="1749000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -320,7 +344,7 @@
     <SUITE FILE_PATH="coverage/python_kan$task_37_01__1_.coverage" NAME="task_37_01 (1) Coverage Results" MODIFIED="1681668120379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__3_.coverage" NAME="task_36_01 (3) Coverage Results" MODIFIED="1681288910850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_02.coverage" NAME="exam_02 Coverage Results" MODIFIED="1681296595040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1693415932587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
+    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1693656788699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
     <SUITE FILE_PATH="coverage/python_kan$combinations_05.coverage" NAME="combinations_05 Coverage Results" MODIFIED="1681274403482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__2_.coverage" NAME="task_36_01 (2) Coverage Results" MODIFIED="1681288711345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)/HomeWork_36" />
     <SUITE FILE_PATH="coverage/python_kan$main.coverage" NAME="main Coverage Results" MODIFIED="1681145374670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

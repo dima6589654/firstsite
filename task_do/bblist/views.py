@@ -8,7 +8,7 @@ from .models import Task, IceCream
 
 def task_list(request):
     tasks = Task.objects.all()
-    paginator = Paginator(tasks, 1)
+    paginator = Paginator(tasks, 5)
     page = request.GET.get('page')
     tasks = paginator.get_page(page)
     return render(request, 'task_list.html', {'tasks': tasks})

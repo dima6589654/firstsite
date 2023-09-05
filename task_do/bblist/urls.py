@@ -1,4 +1,5 @@
-from django.urls import path, re_path
+from django.urls import path
+
 from bblist import views
 from bblist.views import task_list, delete_task, edit_task, task_detail, create_task
 
@@ -12,7 +13,5 @@ urlpatterns = [
     path('tasks/ordered-by-due-date/', views.tasks_ordered_by_due_date, name='tasks_ordered_by_due_date'),
     path('icecream-list/', views.icecream_list, name='icecream_list'),
     path('create-icecream/', views.create_icecream, name='create_icecream'),
-
+    path('task_titles/', views.task_titles, name='task_titles'),
 ]
-
-

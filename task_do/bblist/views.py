@@ -84,3 +84,8 @@ def icecream_list(request):
     page = request.GET.get('page')
     icecream = paginator.get_page(page)
     return render(request, 'icecream_list.html', {'icecream': icecream})
+
+
+def task_titles(request):
+    tasks = Task.objects.values('title', 'priority')
+    return render(request, 'task_titles.html', {'tasks': tasks})

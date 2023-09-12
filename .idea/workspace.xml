@@ -5,89 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
-      <change afterPath="$PROJECT_DIR$/samplesite/bboard/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplesite/bboard/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samplesite/bboard/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/bblist/migrations/0002_task_users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_icecream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/delete_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/edit_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/error_message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/icecream_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_titles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_due_today.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_ordered_by_due_date.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +22,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -287,7 +210,7 @@
       <workItem from="1693639643428" duration="7359000" />
       <workItem from="1693655624671" duration="2011000" />
       <workItem from="1693883619895" duration="2977000" />
-      <workItem from="1694105104986" duration="7535000" />
+      <workItem from="1694105104986" duration="13900000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -384,6 +307,6 @@
     <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_01.coverage" NAME="exam_01 Coverage Results" MODIFIED="1681299360163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1694331530480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
+    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1694499168198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
   </component>
 </project>

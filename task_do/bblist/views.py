@@ -20,6 +20,7 @@ def task_detail(request, task_id):
     task = get_object_or_404(Task, id=task_id)
     return render(request, 'task_detail.html', {'task': task})
 
+
 def create_task(request):
     if request.method == 'POST':
         form = TaskForm(request.POST)

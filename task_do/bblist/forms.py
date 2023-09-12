@@ -5,12 +5,13 @@ from bblist.models import Task
 from bblist.models import IceCream
 from captcha.fields import CaptchaField
 
+
 class TaskForm(forms.ModelForm):
     captcha = CaptchaField()
 
     class Meta:
         model = Task
-        fields = ('title', 'priority', 'due_date')
+        fields = ('title', 'description','priority' , 'due_date')
         widgets = {
             'due_date': DateTimeInput(attrs={'type': 'datetime-local'}),
         }

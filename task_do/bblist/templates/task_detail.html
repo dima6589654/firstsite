@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Подробности задачи{% endblock %}
+
+{% block content %}
+<h1>Подробности задачи</h1>
+<h2>{{ task.title }}</h2>
+<p>Описание: {{ task.description }}</p>
+<p>Приоритет: {{ task.priority }}</p>
+<p>Дата выполнения: {{ task.due_date }}</p>
+<a href="{% url 'edit_task' task_id=task.id %}" class="btn btn-primary">Изменить</a>
+<a href="{% url 'delete_task' task_id=task.id %}" class="btn btn-danger">Удалить</a>
+<a href="{% url 'task_list' %}" class="btn btn-primary">Назад</a>
+{% endblock %}

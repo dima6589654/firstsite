@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Задачи, упорядоченные по дате выполнения{% endblock %}
+{% block content %}
+<h1>Задачи, упорядоченные по дате выполнения</h1>
+<ul>
+    {% for task in tasks_ordered %}
+        <li>{{ task.title }} - {{ task.due_date }}</li>
+    {% empty %}
+        <li>Задачи не найдены.</li>
+    {% endfor %}
+</ul>
+{% endblock %}

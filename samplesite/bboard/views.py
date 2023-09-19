@@ -1,5 +1,6 @@
+from django.db import transaction
 from django.db.models import Count
-from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404, get_list_or_404
 from django.template.loader import render_to_string
 from django.urls import reverse_lazy, reverse
@@ -71,10 +72,15 @@ class AddSaveView(CommonDataMixin, View):
         bbf = BbForm(request.POST)
 
         if bbf.is_valid():
-            bbf.save()
+            try:
+                with transaction.atomic():
+                    bbf.save()
+            except Exception as e:
+                # Обработка ошибки и отмена транзакции
+                transaction.set_rollback(True)
+                return HttpResponse(f"Произошла ошибка: {str(e)}", status=500)
 
-            return HttpResponseRedirect(reverse('by_rubric',
-                                                kwargs={'rubric_id': bbf.cleaned_data['rubric'].pk}))
+            return HttpResponseRedirect(reverse('by_rubric', kwargs={'rubric_id': bbf.cleaned_data['rubric'].pk}))
         else:
             context = {'form': bbf}
             context.update(self.get_common_data())

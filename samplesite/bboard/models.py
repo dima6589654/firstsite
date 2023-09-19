@@ -14,12 +14,26 @@ def validate_even(val):
                               params={'value': val})
 
 
+class RubricManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().order_by('order', 'name')
+
+    def order_by_bb_count(self):
+        return super().get_queryset().annotate(
+            cnt=models.Count('bb')).order_by('-cnt')
+
+
 class Rubric(models.Model):
     name = models.CharField(
         max_length=20,
         db_index=True,
         verbose_name="Название",
     )
+    order = models.PositiveIntegerField(
+        verbose_name="Порядок",
+        default=0,
+    )
+    objects = RubricManager()
 
     def __str__(self):
         return self.name
@@ -91,25 +105,3 @@ class Bb(models.Model):
         verbose_name = "Объявление"
         verbose_name_plural = "Объявления"
         ordering = ['-published', 'title']
-
-
-class CustomBb(Bb):
-    custom_field = models.CharField(
-        max_length=100,
-        verbose_name="Дополнительное поле для CustomBb",
-    )
-
-    class Meta:
-        verbose_name = "Custom Объявление"
-        verbose_name_plural = "Custom Объявления"
-
-
-class PremiumBb(Bb):
-    premium_field = models.CharField(
-        max_length=100,
-        verbose_name="Дополнительное поле для PremiumBb",
-    )
-
-    class Meta:
-        verbose_name = "Premium Объявление"
-        verbose_name_plural = "Premium Объявления"

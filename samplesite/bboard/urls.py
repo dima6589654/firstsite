@@ -1,6 +1,6 @@
 from django.urls import path
 
-from bboard.views import IndexView, ByRubricView, BbCreateView, DetailView, AddView, AddSaveView
+from bboard.views import IndexView, ByRubricView, BbCreateView, DetailView
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),

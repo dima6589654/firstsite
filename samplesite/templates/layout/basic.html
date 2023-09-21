@@ -3,24 +3,22 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
 
-  <!-- Bootstrap core CSS -->
-  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
 
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
-  <link rel="stylesheet" href="{% static 'assets/css/tooplate-main.css' %}">
-  <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+<!-- Additional CSS Files -->
+<link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+<link rel="stylesheet" href="{% static 'assets/css/tooplate-main.css' %}">
+<link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
 
-</head>
 
 <body>
 
@@ -53,6 +51,59 @@
   </div>
   <!-- Sub Footer Ends Here -->
 
+  <!-- Аккордеон -->
+  <div class="container mt-5">
+    <h2>Аккордеон</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Секция 1
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            Содержание секции 1
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Секция 2
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Содержание секции 2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Всплывающие сообщения -->
+  <div class="container mt-5">
+    <!-- Сообщение об успехе -->
+    <div class="alert alert-success" role="alert">
+      <strong>Успех!</strong> Операция успешно выполнена.
+    </div>
+
+    <!-- Сообщение об ошибке -->
+    <div class="alert alert-danger" role="alert">
+      <strong>Ошибка!</strong> Произошла ошибка при выполнении операции.
+    </div>
+  </div>
+  <!-- Sub Footer Ends Here -->
+</body>
+</html>
+
   <!-- Bootstrap core JavaScript -->
   <script src="{% static 'vendor/jquery/jquery.min.js'%}"></script>
   <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
@@ -72,6 +123,3 @@
     }
   </script>
 
-</body>
-
-</html>

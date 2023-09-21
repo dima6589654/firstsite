@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'bboard.apps.BboardConfig',
     'testapp.apps.TestappConfig',
     'authapp',
+    'bootstrap4',
+    'precise_bbcode',
 ]
 
 MIDDLEWARE = [

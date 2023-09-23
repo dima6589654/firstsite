@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/bboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/bboard/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/firstsite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/firstsite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/bb_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/bb_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/bb_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/bb_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/bbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/bbs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/by_rubric.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/by_rubric.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/bboard/rubrics.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/bboard/rubrics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/includes/inc_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/includes/inc_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/includes/inc_main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/includes/inc_main_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samplesite/templates/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/samplesite/templates/layout/basic.html" afterDir="false" />
-    </list>
+    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_30" />
+        <entry key="$PROJECT_DIR$" value="home_work_31" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,7 +198,7 @@
       <workItem from="1693655624671" duration="2011000" />
       <workItem from="1693883619895" duration="2977000" />
       <workItem from="1694105104986" duration="13900000" />
-      <workItem from="1695104648251" duration="12547000" />
+      <workItem from="1695104648251" duration="12849000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -305,6 +285,6 @@
     <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_01.coverage" NAME="exam_01 Coverage Results" MODIFIED="1681299360163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695318510938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
+    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695318825129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
   </component>
 </project>

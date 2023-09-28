@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Успешно{% endblock %}
+
+{% block content %}
+<h1>Успешно</h1>
+<p>{{ success_message }}</p>
+<a href="{% url 'create_task' %}">Создать ещё задачу</a>
+{% endblock %}

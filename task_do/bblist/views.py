@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-from django.core.paginator import Paginator
-from django.shortcuts import render, redirect, get_object_or_404
-from django.utils import timezone
-
-from .forms import SearchForm
-from .forms import TaskForm, IceCreamForm
-from .models import Task, IceCream
-
 from django.shortcuts import render, redirect, get_object_or_404
 from django.core.paginator import Paginator
 from django.utils import timezone

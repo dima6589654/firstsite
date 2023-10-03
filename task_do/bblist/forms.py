@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-from captcha.fields import CaptchaField
 from django import forms
 from django.core.validators import FileExtensionValidator
 

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Подробности задачи{% endblock %}
+
+{% block content %}
+<h1>Подробности задачи</h1>
+<h2>{{ task.title }}</h2>
+<p>Описание: {{ task.description }}</p>
+<p>Приоритет: {{ task.priority }}</p>
+<p>Дата выполнения: {{ task.due_date }}</p>
+
+{% if task.attachment %}
+    <p>Прикрепленные файлы:</p>
+    <ul>
+        {% if ".jpg" in task.attachment.name|lower or ".jpeg" in task.attachment.name|lower or ".png" in task.attachment.name|lower or ".gif" in task.attachment.name|lower %}
+            <li><img src="{{ task.attachment.url }}" alt="{{ task.attachment.name }}" style="max-width: 300px; max-height: 300px;"></li>
+        {% else %}
+            <li><a href="{{ task.attachment.url }}" target="_blank">{{ task.attachment.name }}</a></li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+<a href="{% url 'edit_task' task_id=task.id %}" class="btn btn-primary">Изменить</a>
+<a href="{% url 'delete_task' task_id=task.id %}" class="btn btn-danger">Удалить</a>
+<a href="{% url 'task_list' %}" class="btn btn-primary">Назад</a>
+{% endblock %}

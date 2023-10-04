@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Результаты поиска</h1>
+  <ul>
+    {% for bb in bbs %}
+      <li>
+        <h2>{{ bb.title }}</h2>
+        <p>Описание: {{ bb.description }}</p>
+        <p>Приоритет: {{ bb.priority }}</p>
+        <p>Время выполнения: {{ bb.due_date }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'search' %}">Назад к поиску</a>
+{% endblock %}

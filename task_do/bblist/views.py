@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 import os
+
+
+from django.contrib import messages
 from django.core.paginator import Paginator
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render, redirect
 from django.utils import timezone
+
 from .forms import IceCreamForm, SearchForm, TaskForm
 from .models import IceCream, Task
 
+from django.contrib import messages
+from django.conf import settings
 
 def create_task(request):
     if request.method == 'POST':
@@ -20,6 +26,8 @@ def create_task(request):
 
             task.attachment = 'attachments/' + attachment_file.name
             task.save()
+            messages.add_message(request, settings.MY_CUSTOM_LEVEL, 'Задача успешно создана!')
+
             return redirect('task_list')
     else:
         form = TaskForm()

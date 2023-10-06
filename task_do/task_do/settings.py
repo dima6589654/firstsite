@@ -140,3 +140,15 @@ THUMBNAIL_ALIASES = {
         'medium': {'size': (300, 200)},
     },
 }
+# settings.py
+
+CRITICAL = 50
+INFO = 25
+MY_CUSTOM_LEVEL = 30
+
+MESSAGE_TAGS = {
+    CRITICAL: 'critical',
+    INFO: 'info',
+    MY_CUSTOM_LEVEL: 'my-custom-level',
+}
+

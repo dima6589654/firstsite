@@ -1,16 +1,25 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render, redirect, get_object_or_404
+import os
 from django.core.paginator import Paginator
+from django.shortcuts import get_object_or_404
+from django.shortcuts import render, redirect
 from django.utils import timezone
-from .forms import TaskForm, IceCreamForm, SearchForm
-from .models import Task, IceCream
+from .forms import IceCreamForm, SearchForm, TaskForm
+from .models import IceCream, Task
 
 
 def create_task(request):
     if request.method == 'POST':
         form = TaskForm(request.POST, request.FILES)
         if form.is_valid():
-            form.save()
+            task = form.save(commit=False)
+            attachment_file = request.FILES['attachment']
+            with open(os.path.join('media', 'attachments', attachment_file.name), 'wb') as destination:
+                for chunk in attachment_file.chunks():
+                    destination.write(chunk)
+
+            task.attachment = 'attachments/' + attachment_file.name
+            task.save()
             return redirect('task_list')
     else:
         form = TaskForm()
@@ -96,17 +105,3 @@ def search(request):
     else:
         form = SearchForm()
     return render(request, 'search.html', {'form': form})
-
-
-def search(request):
-    if request.method == "POST":
-        sf = SearchForm(request.POST)
-        if sf.is_valid():
-            keyword = sf.cleaned_data['keyword']
-            bbs = Task.objects.filter(title__iregex=keyword, )
-            context = {'bbs': bbs, "form": sf}
-            return render(request, 'search_results.html', context)
-    else:
-        sf = SearchForm()
-    context = {'form': sf}
-    return render(request, 'search.html', context)

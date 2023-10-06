@@ -36,7 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'captcha',
-    'bblist'
+    'bblist',
+    'easy_thumbnails'
 
 ]
 
@@ -67,6 +68,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'task_do.wsgi.application'
 
@@ -130,3 +132,9 @@ LOGIN_REDIRECT_URL = 'task_list'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+THUMBNAIL_ALIASES = {
+    '': {
+        'small': {'size': (100, 100), 'crop': True},
+        'medium': {'size': (300, 200)},
+    },
+}

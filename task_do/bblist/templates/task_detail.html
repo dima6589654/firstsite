@@ -23,4 +23,13 @@
 <a href="{% url 'edit_task' task_id=task.id %}" class="btn btn-primary">Изменить</a>
 <a href="{% url 'delete_task' task_id=task.id %}" class="btn btn-danger">Удалить</a>
 <a href="{% url 'task_list' %}" class="btn btn-primary">Назад</a>
+{% if user_groups %}
+    <p>Группы пользователя:</p>
+    <ul>
+        {% for group in user_groups %}
+            <li>{{ group.name }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
 {% endblock %}

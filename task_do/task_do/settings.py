@@ -140,7 +140,6 @@ THUMBNAIL_ALIASES = {
         'medium': {'size': (300, 200)},
     },
 }
-# settings.py
 
 CRITICAL = 50
 INFO = 25

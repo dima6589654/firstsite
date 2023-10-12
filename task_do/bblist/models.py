@@ -24,12 +24,13 @@ class Task(models.Model):
         return cls.objects.order_by('due_date')
 
 
-# Функция для удаления файла при удалении задачи
+# #######################################
 @receiver(post_delete, sender=Task)
 def delete_attachment(sender, instance, **kwargs):
     if instance.attachment:
         if os.path.isfile(instance.attachment.path):
             os.remove(instance.attachment.path)
+            print(f"Вложение удалено: {instance.attachment.name} для задачи: {instance.title}")
 
 
 class IceCream(models.Model):

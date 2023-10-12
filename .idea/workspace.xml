@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/bblist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/3.Материал_занятия_42_reducted.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/DSC04318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/DSC04326.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_36" />
+        <entry key="$PROJECT_DIR$" value="home_work_41" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +49,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2OF8w8nizmUuurvNAvNxbZ8SpMa" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,24 +60,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/python_django/task_do/bblist",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;home__work__42&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/python_django&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\python_django\task_do\bblist" />
@@ -98,7 +104,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\python_django\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samplesite" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -121,7 +126,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\python_django\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_do" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -210,6 +214,18 @@
       <workItem from="1694105104986" duration="13900000" />
       <workItem from="1695104648251" duration="12547000" />
       <workItem from="1695923558284" duration="5610000" />
+      <workItem from="1696597042521" duration="13148000" />
+      <workItem from="1696994453845" duration="913000" />
+      <workItem from="1696997091786" duration="3886000" />
+      <workItem from="1697110201040" duration="152000" />
+      <workItem from="1697110364546" duration="20000" />
+      <workItem from="1697110794213" duration="409000" />
+      <workItem from="1697111571383" duration="91000" />
+      <workItem from="1697111675165" duration="41000" />
+      <workItem from="1697111776521" duration="86000" />
+      <workItem from="1697112292554" duration="191000" />
+      <workItem from="1697112618749" duration="132000" />
+      <workItem from="1697112766102" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -264,38 +280,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;authapp&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_kan$uytudfxc.coverage" NAME="uytudfxc Coverage Results" MODIFIED="1681576271108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kan$tjkytu.coverage" NAME="tjkytu Coverage Results" MODIFIED="1681198084222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
-    <SUITE FILE_PATH="coverage/python_kan$dz3.coverage" NAME="dz3 Coverage Results" MODIFIED="1681576098233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
-    <SUITE FILE_PATH="coverage/python_django$runser.coverage" NAME="runser Coverage Results" MODIFIED="1689604090753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_03.coverage" NAME="task_38_03 Coverage Results" MODIFIED="1681236424963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (4)" />
-    <SUITE FILE_PATH="coverage/python_kan$groupby_08.coverage" NAME="groupby_08 Coverage Results" MODIFIED="1681273177208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$task_37_01__1_.coverage" NAME="task_37_01 (1) Coverage Results" MODIFIED="1681668120379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__3_.coverage" NAME="task_36_01 (3) Coverage Results" MODIFIED="1681288910850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
-    <SUITE FILE_PATH="coverage/python_kan$exam_02.coverage" NAME="exam_02 Coverage Results" MODIFIED="1681296595040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1696442560951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
-    <SUITE FILE_PATH="coverage/python_kan$combinations_05.coverage" NAME="combinations_05 Coverage Results" MODIFIED="1681274403482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__2_.coverage" NAME="task_36_01 (2) Coverage Results" MODIFIED="1681288711345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)/HomeWork_36" />
-    <SUITE FILE_PATH="coverage/python_kan$main.coverage" NAME="main Coverage Results" MODIFIED="1681145374670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kan$task_37_02.coverage" NAME="task_37_02 Coverage Results" MODIFIED="1681667217230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_02.coverage" NAME="task_38_02 Coverage Results" MODIFIED="1681234600272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_01__1_.coverage" NAME="task_38_01 (1) Coverage Results" MODIFIED="1681234718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (3)" />
-    <SUITE FILE_PATH="coverage/python_kan$enum_01.coverage" NAME="enum_01 Coverage Results" MODIFIED="1681273192493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1681575830844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
     <SUITE FILE_PATH="coverage/python_kan$task_38_01.coverage" NAME="task_38_01 Coverage Results" MODIFIED="1681234182530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
+    <SUITE FILE_PATH="coverage/python_kan$uytudfxc.coverage" NAME="uytudfxc Coverage Results" MODIFIED="1681576271108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_django$runser.coverage" NAME="runser Coverage Results" MODIFIED="1689604090753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
     <SUITE FILE_PATH="coverage/python_kan$task_36_01.coverage" NAME="task_36_01 Coverage Results" MODIFIED="1681274561288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/HomeWork_36" />
     <SUITE FILE_PATH="coverage/python_kan$task_37_01.coverage" NAME="task_37_01 Coverage Results" MODIFIED="1681577972840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
     <SUITE FILE_PATH="coverage/python_django$fill_db.coverage" NAME="fill_db Coverage Results" MODIFIED="1685901959995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite/bboard/management/commands" />
-    <SUITE FILE_PATH="coverage/python_kan$chains_07.coverage" NAME="chains_07 Coverage Results" MODIFIED="1681273141226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$dz1__1_.coverage" NAME="dz1 (1) Coverage Results" MODIFIED="1681576722198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz2" />
-    <SUITE FILE_PATH="coverage/python_kan$dfg__1_.coverage" NAME="dfg (1) Coverage Results" MODIFIED="1681237441339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan" />
-    <SUITE FILE_PATH="coverage/python_kan$cycle_03.coverage" NAME="cycle_03 Coverage Results" MODIFIED="1681273433366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_django$models.coverage" NAME="models Coverage Results" MODIFIED="1685897908425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite/bboard" />
-    <SUITE FILE_PATH="coverage/python_kan$dfg.coverage" NAME="dfg Coverage Results" MODIFIED="1681207040403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
-    <SUITE FILE_PATH="coverage/python_django$sdhfjg.coverage" NAME="sdhfjg Coverage Results" MODIFIED="1692513585054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
     <SUITE FILE_PATH="coverage/python_kan$exam_01.coverage" NAME="exam_01 Coverage Results" MODIFIED="1681299360163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
+    <SUITE FILE_PATH="coverage/python_kan$main.coverage" NAME="main Coverage Results" MODIFIED="1681145374670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kan$task_36_01__2_.coverage" NAME="task_36_01 (2) Coverage Results" MODIFIED="1681288711345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)/HomeWork_36" />
+    <SUITE FILE_PATH="coverage/python_kan$task_37_01__1_.coverage" NAME="task_37_01 (1) Coverage Results" MODIFIED="1681668120379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
+    <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
+    <SUITE FILE_PATH="coverage/python_kan$dfg__1_.coverage" NAME="dfg (1) Coverage Results" MODIFIED="1681237441339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan" />
+    <SUITE FILE_PATH="coverage/python_kan$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1681575830844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
+    <SUITE FILE_PATH="coverage/python_kan$dfg.coverage" NAME="dfg Coverage Results" MODIFIED="1681207040403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
+    <SUITE FILE_PATH="coverage/python_kan$chains_07.coverage" NAME="chains_07 Coverage Results" MODIFIED="1681273141226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
+    <SUITE FILE_PATH="coverage/python_kan$exam_02.coverage" NAME="exam_02 Coverage Results" MODIFIED="1681296595040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
+    <SUITE FILE_PATH="coverage/python_kan$enum_01.coverage" NAME="enum_01 Coverage Results" MODIFIED="1681273192493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
+    <SUITE FILE_PATH="coverage/python_django$sdhfjg.coverage" NAME="sdhfjg Coverage Results" MODIFIED="1692513585054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_kan$task_38_03.coverage" NAME="task_38_03 Coverage Results" MODIFIED="1681236424963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (4)" />
+    <SUITE FILE_PATH="coverage/python_kan$groupby_08.coverage" NAME="groupby_08 Coverage Results" MODIFIED="1681273177208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
+    <SUITE FILE_PATH="coverage/python_django$models.coverage" NAME="models Coverage Results" MODIFIED="1685897908425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite/bboard" />
+    <SUITE FILE_PATH="coverage/python_kan$cycle_03.coverage" NAME="cycle_03 Coverage Results" MODIFIED="1681273433366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
+    <SUITE FILE_PATH="coverage/python_kan$task_36_01__3_.coverage" NAME="task_36_01 (3) Coverage Results" MODIFIED="1681288910850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
+    <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
+    <SUITE FILE_PATH="coverage/python_kan$dz3.coverage" NAME="dz3 Coverage Results" MODIFIED="1681576098233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
+    <SUITE FILE_PATH="coverage/python_kan$task_37_02.coverage" NAME="task_37_02 Coverage Results" MODIFIED="1681667217230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
+    <SUITE FILE_PATH="coverage/python_kan$task_38_02.coverage" NAME="task_38_02 Coverage Results" MODIFIED="1681234600272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)" />
+    <SUITE FILE_PATH="coverage/python_kan$combinations_05.coverage" NAME="combinations_05 Coverage Results" MODIFIED="1681274403482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
+    <SUITE FILE_PATH="coverage/python_kan$dz1__1_.coverage" NAME="dz1 (1) Coverage Results" MODIFIED="1681576722198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz2" />
     <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695835488681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
+    <SUITE FILE_PATH="coverage/python_kan$task_38_01__1_.coverage" NAME="task_38_01 (1) Coverage Results" MODIFIED="1681234718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (3)" />
+    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1697114142780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
+    <SUITE FILE_PATH="coverage/python_kan$tjkytu.coverage" NAME="tjkytu Coverage Results" MODIFIED="1681198084222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
   </component>
 </project>

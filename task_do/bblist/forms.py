@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from captcha.fields import CaptchaField
 from django import forms
 from django.core.validators import FileExtensionValidator
 
@@ -37,3 +36,6 @@ class IceCreamForm(forms.ModelForm):
 
 class SearchForm(forms.Form):
     keyword = forms.CharField(max_length=20, label="Поиск")
+
+
+

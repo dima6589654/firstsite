@@ -1,18 +1,19 @@
 # -*- coding: utf-8 -*-
 import os
 
-
 from django.contrib import messages
 from django.core.paginator import Paginator
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render, redirect
 from django.utils import timezone
+from django.views.decorators.cache import cache_page
 
 from .forms import IceCreamForm, SearchForm, TaskForm
 from .models import IceCream, Task
 
 from django.contrib import messages
 from django.conf import settings
+
 
 def create_task(request):
     if request.method == 'POST':
@@ -55,6 +56,7 @@ def delete_task(request, task_id):
     return render(request, 'delete_task.html', {'task': task})
 
 
+@cache_page(60)  # Кэшировать страницу на 60 секунд (время в секундах)
 def task_list(request):
     tasks = Task.objects.all()
     paginator = Paginator(tasks, 5)

@@ -4,14 +4,18 @@ from .models import Task, IceCream
 
 class TaskAdmin(admin.ModelAdmin):
     list_display = ('title', 'priority', 'due_date')
-    list_display_links = ('title', 'priority')
-    search_fields = ('title', 'priority')
+    list_filter = ('priority', 'due_date')
+    search_fields = ('title', 'description')
+    list_editable = ('priority',)  # Редактируемое поле
+    list_per_page = 20  # Количество объектов на странице
 
 
 class IceCreamAdmin(admin.ModelAdmin):
     list_display = ('flavor', 'topping', 'price')
-    list_display_links = ('flavor', 'topping')
+    list_filter = ('flavor', 'topping')
     search_fields = ('flavor', 'topping')
+    list_editable = ('price',)  # Редактируемое поле
+    list_per_page = 20  # Количество объектов на странице
 
 
 admin.site.register(Task, TaskAdmin)

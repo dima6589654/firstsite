@@ -1,8 +1,23 @@
 import os
 
+from django.contrib.auth.models import AbstractUser, Group, Permission
 from django.db import models
 from django.db.models.signals import post_delete
 from django.dispatch import receiver
+
+
+class CustomUser(AbstractUser):
+    bio = models.TextField(verbose_name="О себе")
+    profile_picture = models.ImageField(verbose_name="Аватар", upload_to='avatars/', default='default_avatar.jpg')
+    groups = models.ManyToManyField(Group, related_name='custom_users')
+    user_permissions = models.ManyToManyField(Permission, related_name='custom_users')
+
+    class Meta:
+        verbose_name = 'Пользователь'
+        verbose_name_plural = 'Пользователи'
+
+    def __str__(self):
+        return self.username
 
 
 class Task(models.Model):
@@ -23,8 +38,11 @@ class Task(models.Model):
     def get_tasks_ordered_by_due_date(cls):
         return cls.objects.order_by('due_date')
 
+    class Meta:
+        verbose_name = 'Задача'
+        verbose_name_plural = 'Задачи'
 
-# #######################################
+
 @receiver(post_delete, sender=Task)
 def delete_attachment(sender, instance, **kwargs):
     if instance.attachment:
@@ -38,5 +56,9 @@ class IceCream(models.Model):
     topping = models.CharField(max_length=100, verbose_name="Топпинг")
     price = models.DecimalField(max_digits=10, decimal_places=1, verbose_name="Цена")
 
-    def __str__(self):
+    def __str(self):
         return f"{self.flavor} - {self.topping}"
+
+    class Meta:
+        verbose_name = 'Мороженое'
+        verbose_name_plural = 'Мороженое'

@@ -1,4 +1,7 @@
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
+
+from .models import CustomUser
 from .models import Task, IceCream
 
 
@@ -17,6 +20,17 @@ class IceCreamAdmin(admin.ModelAdmin):
     list_editable = ('price',)  # Редактируемое поле
     list_per_page = 20  # Количество объектов на странице
 
+
+class CustomUserAdmin(UserAdmin):
+    list_display = ('username', 'email', 'date_joined', 'is_active')
+    list_filter = ('date_joined', 'is_active')
+    search_fields = ('username', 'email')
+    list_editable = ('is_active',)
+    list_per_page = 20
+
+
+
+admin.site.register(CustomUser, CustomUserAdmin)
 
 admin.site.register(Task, TaskAdmin)
 admin.site.register(IceCream, IceCreamAdmin)

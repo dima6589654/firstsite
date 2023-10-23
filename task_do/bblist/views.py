@@ -48,6 +48,7 @@ def edit_task(request, task_id):
     return render(request, 'edit_task.html', {'form': form, 'task': task})
 
 
+@cache_page(60)
 def delete_task(request, task_id):
     task = get_object_or_404(Task, id=task_id)
     if request.method == 'POST':
@@ -56,7 +57,6 @@ def delete_task(request, task_id):
     return render(request, 'delete_task.html', {'task': task})
 
 
-@cache_page(60)  # Кэшировать страницу на 60 секунд (время в секундах)
 def task_list(request):
     tasks = Task.objects.all()
     paginator = Paginator(tasks, 5)

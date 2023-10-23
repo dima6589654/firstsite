@@ -4,7 +4,7 @@ from bblist import views
 from task_do import settings
 
 urlpatterns = [
-    path('', cache_page(60)(views.task_list), name='task_list'),
+    path('', views.task_list, name='task_list'),
     path('create/', cache_page(60)(views.create_task), name='create_task'),
     path('<int:task_id>/', cache_page(60)(views.task_detail), name='task_detail'),
     path('<int:task_id>/edit/', views.edit_task, name='edit_task'),

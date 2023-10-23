@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
 from django import forms
+from django.contrib.auth.models import Group, Permission
 from django.core.validators import FileExtensionValidator
 
-from bblist.models import IceCream
+from bblist.models import IceCream, CustomUser
 from .models import Task
 
 
@@ -38,4 +39,13 @@ class SearchForm(forms.Form):
     keyword = forms.CharField(max_length=20, label="Поиск")
 
 
+class CustomUserForm(forms.ModelForm):
+    class Meta:
+        model = CustomUser
+        fields = ['username', 'password', 'first_name', 'last_name', 'email', 'bio', 'profile_picture', 'groups',
+                  'user_permissions']
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['groups'].queryset = Group.objects.all()
+        self.fields['user_permissions'].queryset = Permission.objects.all()

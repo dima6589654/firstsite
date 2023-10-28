@@ -1,39 +1,49 @@
 # -*- coding: utf-8 -*-
+
 import os
 
+from django.conf import settings
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render, redirect
 from django.utils import timezone
+from django.utils.decorators import method_decorator
+from django.views import View
 from django.views.decorators.cache import cache_page
 
-from .forms import IceCreamForm, SearchForm, TaskForm
+from .forms import IceCreamForm, SearchForm
+from .forms import TaskForm
 from .models import IceCream, Task
 
-from django.contrib import messages
-from django.conf import settings
+
+class LoginRequiredMixin:
+    @method_decorator(login_required)
+    def dispatch(self, request, *args, **kwargs):
+        return super().dispatch(request, *args, **kwargs)
 
 
-def create_task(request):
-    if request.method == 'POST':
-        form = TaskForm(request.POST, request.FILES)
-        if form.is_valid():
-            task = form.save(commit=False)
-            attachment_file = request.FILES['attachment']
-            with open(os.path.join('media', 'attachments', attachment_file.name), 'wb') as destination:
-                for chunk in attachment_file.chunks():
-                    destination.write(chunk)
+class CreateTaskView(LoginRequiredMixin, View):
+    def dispatch(self, request, *args, **kwargs):
+        if request.method == 'POST':
+            form = TaskForm(request.POST, request.FILES)
+            if form.is_valid():
+                task = form.save(commit=False)
+                attachment_file = request.FILES['attachment']
+                with open(os.path.join('media', 'attachments', attachment_file.name), 'wb') as destination:
+                    for chunk in attachment_file.chunks():
+                        destination.write(chunk)
 
-            task.attachment = 'attachments/' + attachment_file.name
-            task.save()
-            messages.add_message(request, settings.MY_CUSTOM_LEVEL, 'Задача успешно создана!')
+                task.attachment = 'attachments/' + attachment_file.name
+                task.save()
+                messages.add_message(request, settings.MY_CUSTOM_LEVEL, 'Задача успешно создана!')
 
-            return redirect('task_list')
-    else:
-        form = TaskForm()
+                return redirect('task_list')
+        else:
+            form = TaskForm()
 
-    return render(request, 'create_task.html', {'form': form})
+        return render(request, 'create_task.html', {'form': form})
 
 
 def edit_task(request, task_id):

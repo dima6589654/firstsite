@@ -26,6 +26,7 @@ class Task(models.Model):
     priority = models.IntegerField(verbose_name="Приоритет")
     due_date = models.DateTimeField(verbose_name="Срок выполнения")
     attachment = models.FileField(verbose_name="Вложение", upload_to='attachments/', default='default_attachment.jpg')
+    is_login_required = models.BooleanField(default=False, verbose_name="Требуется вход")
 
     def __str__(self):
         return self.title

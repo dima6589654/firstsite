@@ -1,11 +1,12 @@
 from django.urls import path, include
 from django.views.decorators.cache import cache_page
 from bblist import views
+from bblist.views import CreateTaskView
 from task_do import settings
 
 urlpatterns = [
     path('', views.task_list, name='task_list'),
-    path('create/', cache_page(60)(views.create_task), name='create_task'),
+    path('create/', CreateTaskView.as_view(), name='create_task'),
     path('<int:task_id>/', cache_page(60)(views.task_detail), name='task_detail'),
     path('<int:task_id>/edit/', views.edit_task, name='edit_task'),
     path('<int:task_id>/delete/', views.delete_task, name='delete_task'),

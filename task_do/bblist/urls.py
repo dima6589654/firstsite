@@ -1,13 +1,18 @@
+# bblist/urls.py
+from django.conf import settings
 from django.urls import path, include
-from django.views.decorators.cache import cache_page
+from rest_framework.routers import DefaultRouter
 from bblist import views
-from bblist.views import CreateTaskView
-from task_do import settings
+
+router = DefaultRouter()
+router.register(r'tasks', views.TaskViewSet)
+router.register(r'icecream', views.IceCreamViewSet)
+router.register(r'users', views.CustomUserViewSet)
 
 urlpatterns = [
     path('', views.task_list, name='task_list'),
-    path('create/', CreateTaskView.as_view(), name='create_task'),
-    path('<int:task_id>/', cache_page(60)(views.task_detail), name='task_detail'),
+    path('create/', views.CreateTaskView.as_view(), name='create_task'),
+    path('<int:task_id>/', views.task_detail, name='task_detail'),
     path('<int:task_id>/edit/', views.edit_task, name='edit_task'),
     path('<int:task_id>/delete/', views.delete_task, name='delete_task'),
     path('tasks/due-today/', views.tasks_due_today, name='tasks_due_today'),
@@ -16,7 +21,9 @@ urlpatterns = [
     path('create-icecream/', views.create_icecream, name='create_icecream'),
     path('task_titles/', views.task_titles, name='task_titles'),
     path('search/', views.search, name='search'),
+    path('api/', include(router.urls)),
 ]
+
 
 if settings.DEBUG:
     # import debug_toolbar

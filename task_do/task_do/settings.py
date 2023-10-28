@@ -19,6 +19,8 @@ INSTALLED_APPS = [
     'bblist',
     'easy_thumbnails',
     'debug_toolbar',
+    'rest_framework',
+
 
 ]
 

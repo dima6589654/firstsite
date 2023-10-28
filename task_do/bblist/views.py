@@ -12,10 +12,28 @@ from django.utils import timezone
 from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.cache import cache_page
+from rest_framework import viewsets
 
 from .forms import IceCreamForm, SearchForm
 from .forms import TaskForm
-from .models import IceCream, Task
+from .models import CustomUser
+from .models import Task, IceCream
+from .serializers import TaskSerializer, IceCreamSerializer, CustomUserSerializer
+
+
+class TaskViewSet(viewsets.ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+
+
+class IceCreamViewSet(viewsets.ModelViewSet):
+    queryset = IceCream.objects.all()
+    serializer_class = IceCreamSerializer
+
+
+class CustomUserViewSet(viewsets.ModelViewSet):
+    queryset = CustomUser.objects.all()
+    serializer_class = CustomUserSerializer
 
 
 class LoginRequiredMixin:

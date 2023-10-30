@@ -18,22 +18,8 @@ from .forms import IceCreamForm, SearchForm
 from .forms import TaskForm
 from .models import CustomUser
 from .models import Task, IceCream
-from .serializers import TaskSerializer, IceCreamSerializer, CustomUserSerializer
-
-
-class TaskViewSet(viewsets.ModelViewSet):
-    queryset = Task.objects.all()
-    serializer_class = TaskSerializer
-
-
-class IceCreamViewSet(viewsets.ModelViewSet):
-    queryset = IceCream.objects.all()
-    serializer_class = IceCreamSerializer
-
-
-class CustomUserViewSet(viewsets.ModelViewSet):
-    queryset = CustomUser.objects.all()
-    serializer_class = CustomUserSerializer
+from .serializers import CustomUserSerializer
+from .serializers import TaskSerializer, IceCreamSerializer
 
 
 class LoginRequiredMixin:
@@ -143,3 +129,18 @@ def search(request):
     else:
         form = SearchForm()
     return render(request, 'search.html', {'form': form})
+
+
+class TaskViewSet(viewsets.ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+
+
+class IceCreamViewSet(viewsets.ModelViewSet):
+    queryset = IceCream.objects.all()
+    serializer_class = IceCreamSerializer
+
+
+class CustomUserViewSet(viewsets.ModelViewSet):
+    queryset = CustomUser.objects.all()
+    serializer_class = CustomUserSerializer

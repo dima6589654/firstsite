@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
-      <change afterPath="$PROJECT_DIR$/task_do/bblist/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/frontend/task_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_do/frontend/task_list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,25 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "home__work__42",
-    "last_opened_file_path": "C:/python_django/firstsite-lesson_47_hw",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;home__work__42&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/python_django/firstsite-lesson_47_hw&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\python_django\firstsite-lesson_47_hw\firstsite" />
@@ -237,7 +238,8 @@
       <workItem from="1698129083102" duration="367000" />
       <workItem from="1698134107132" duration="677000" />
       <workItem from="1698474312281" duration="365000" />
-      <workItem from="1698506535333" duration="8129000" />
+      <workItem from="1698506535333" duration="9038000" />
+      <workItem from="1698592712430" duration="6636000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -324,7 +326,7 @@
     <SUITE FILE_PATH="coverage/python_kan$dz1__1_.coverage" NAME="dz1 (1) Coverage Results" MODIFIED="1681576722198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz2" />
     <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695835488681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
     <SUITE FILE_PATH="coverage/python_kan$task_38_01__1_.coverage" NAME="task_38_01 (1) Coverage Results" MODIFIED="1681234718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (3)" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1698514593143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
+    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1698599546279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
     <SUITE FILE_PATH="coverage/python_kan$tjkytu.coverage" NAME="tjkytu Coverage Results" MODIFIED="1681198084222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
   </component>
 </project>

@@ -15,11 +15,13 @@ from django.views.decorators.cache import cache_page
 from rest_framework import viewsets, status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from .forms import IceCreamForm, SearchForm
 from .forms import TaskForm
 from .models import CustomUser
-from .models import Task, IceCream
+from .models import IceCream
+from .models import Task
 from .serializers import CustomUserSerializer
 from .serializers import TaskSerializer, IceCreamSerializer
 
@@ -155,3 +157,47 @@ class CustomUserViewSet(viewsets.ModelViewSet):
                 serializer.save()
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class ReportController(APIView):
+    def get(self, request, task_id):
+        try:
+            task = Task.objects.get(pk=task_id)
+            icecream = IceCream.objects.first()  # Пример выбора первого объекта IceCream
+            task_serializer = TaskSerializer(task)
+            icecream_serializer = IceCreamSerializer(icecream)
+            report = {
+                'task_details': task_serializer.data,
+                'icecream_details': icecream_serializer.data
+            }
+            return Response(report)
+        except Task.DoesNotExist:
+            return Response({"error": "Task not found"}, status=404)
+
+
+class TaskList(APIView):
+    def get(self, request):
+        tasks = Task.objects.all()
+        serializer = TaskSerializer(tasks, many=True)
+        return Response(serializer.data)
+
+    def post(self, request):
+        serializer = TaskSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class IceCreamList(APIView):
+    def get(self, request):
+        icecream = IceCream.objects.all()
+        serializer = IceCreamSerializer(icecream, many=True)
+        return Response(serializer.data)
+
+    def post(self, request):
+        serializer = IceCreamSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

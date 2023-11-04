@@ -1,8 +1,7 @@
-# bblist/urls.py
 from django.conf import settings
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from bblist import views
+from . import views
 
 router = DefaultRouter()
 router.register(r'tasks', views.TaskViewSet)

@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/bblist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/bblist/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_do/task_do/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_49" />
+        <entry key="$PROJECT_DIR$" value="home_work_50" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -239,7 +240,8 @@
       <workItem from="1698592712430" duration="6636000" />
       <workItem from="1698691581507" duration="5204000" />
       <workItem from="1699107940699" duration="6103000" />
-      <workItem from="1699115719560" duration="753000" />
+      <workItem from="1699115719560" duration="5623000" />
+      <workItem from="1699244310248" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="origin master">
       <created>1681285637535</created>
@@ -326,7 +328,7 @@
     <SUITE FILE_PATH="coverage/python_kan$dz1__1_.coverage" NAME="dz1 (1) Coverage Results" MODIFIED="1681576722198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz2" />
     <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695835488681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
     <SUITE FILE_PATH="coverage/python_kan$task_38_01__1_.coverage" NAME="task_38_01 (1) Coverage Results" MODIFIED="1681234718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (3)" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1699113538570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
+    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1699244705431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
     <SUITE FILE_PATH="coverage/python_kan$tjkytu.coverage" NAME="tjkytu Coverage Results" MODIFIED="1681198084222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
   </component>
 </project>

@@ -1,14 +1,22 @@
 from django.conf import settings
+from django.contrib.auth import logout
+from django.contrib.auth.views import LoginView
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-
 from . import views
 
 router = DefaultRouter()
 router.register(r'tasks', views.TaskViewSet)
 router.register(r'icecream', views.IceCreamViewSet)
 router.register(r'users', views.CustomUserViewSet)
+
 urlpatterns = [
+    # Маршрут для логина (с нулевым уровнем защиты)
+    path('login/', LoginView.as_view(), name='login'),
+
+    # Маршрут для выхода (logout)
+    path('logout/', logout, {'next_page': settings.LOGOUT_REDIRECT_URL}, name='logout'),
+
     path('', views.task_list, name='task_list'),
     path('create/', views.CreateTaskView.as_view(), name='create_task'),
     path('<int:task_id>/', views.task_detail, name='task_detail'),
@@ -21,9 +29,10 @@ urlpatterns = [
     path('task_titles/', views.task_titles, name='task_titles'),
     path('search/', views.search, name='search'),
     path('api/', include(router.urls)),
-    path('api/report/<int:task_id>/', views.ReportController.as_view(), name='report'),
-    path('api/tasks-list/', views.TaskList.as_view(), name='tasks_list_api'),
-    path('api/icecream-list/', views.IceCreamList.as_view(), name='icecream_list_api'),
 ]
+
+
 if settings.DEBUG:
+    # import debug_toolbar
+
     urlpatterns += [path("__debug__/", include("debug_toolbar.urls"))]

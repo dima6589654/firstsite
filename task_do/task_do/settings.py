@@ -1,5 +1,5 @@
+# -*- coding: utf-8 -*-
 from pathlib import Path
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-*qucb$c2x-lb=u%u$@lzi3#0mjon4be==$ax0joqfr^9v*-mj!'
@@ -20,8 +20,6 @@ INSTALLED_APPS = [
     'easy_thumbnails',
     'debug_toolbar',
     'rest_framework',
-
-
 ]
 
 MIDDLEWARE = [
@@ -33,9 +31,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
-
-
-
 ]
 
 ROOT_URLCONF = 'task_do.urls'
@@ -50,7 +45,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'bblist.context_processors.user_groups'
+                'bblist.context_processors.user_groups',
             ],
         },
     },
@@ -62,7 +57,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    },
 }
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -77,11 +72,8 @@ TIME_ZONE = 'Asia/Almaty'
 USE_I18N = True
 USE_TZ = True
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
-LOGOUT_REDIRECT_URL = 'task_list'
-LOGIN_REDIRECT_URL = 'task_list'
-DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
 
@@ -101,16 +93,58 @@ MESSAGE_TAGS = {
     INFO: 'info',
     MY_CUSTOM_LEVEL: 'my-custom-level',
 }
+
+LOGGING_DIR = Path(BASE_DIR) / 'logs'
+LOGGING_DIR.mkdir(parents=True, exist_ok=True)
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file_debug': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': LOGGING_DIR / 'debug.log',
+        },
+        'file_info': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': LOGGING_DIR / 'info.log',
+        },
+        'file_custom': {
+            'level': MY_CUSTOM_LEVEL,
+            'class': 'logging.FileHandler',
+            'filename': LOGGING_DIR / 'custom.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file_debug', 'file_info'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'custom_logger': {
+            'handlers': ['file_custom'],
+            'level': MY_CUSTOM_LEVEL,
+            'propagate': True,
+        },
+    },
+}
+
+LOGOUT_REDIRECT_URL = 'task_list'
+LOGIN_REDIRECT_URL = 'task_list'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': 'redis://127.0.0.1:6379/1',  # Укажите адрес и порт вашего Redis-сервера
+        'LOCATION': 'redis://127.0.0.1:6379/1',  # РЈРєР°Р¶РёС‚Рµ Р°РґСЂРµСЃ Рё РїРѕСЂС‚ РІР°С€РµРіРѕ Redis-СЃРµСЂРІРµСЂР°
         'OPTIONS': {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
         }
     }
 }
-# Включаем Django Debug Toolbar
+
 if DEBUG:
     MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
     INTERNAL_IPS = ['127.0.0.1', 'localhost']
@@ -124,6 +158,5 @@ CORS_ORIGIN_WHITELIST = [
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
-
     ],
 }

@@ -1,0 +1,15 @@
+Watching for file changes with StatReloader
+C:\python_django\task_do\task_do\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 14652
+"GET /1/ HTTP/1.1" 200 12046
+"GET /media/attachments/car.jpg HTTP/1.1" 200 2624980
+"GET / HTTP/1.1" 200 14651
+"GET /create/ HTTP/1.1" 200 12563
+"GET /create/ HTTP/1.1" 200 12562
+"GET /create-icecream/ HTTP/1.1" 200 12209
+"GET /icecream-list/ HTTP/1.1" 200 11542
+"GET /task_titles/ HTTP/1.1" 200 11851
+C:\python_django\task_do\task_do\settings.py changed, reloading.
+Watching for file changes with StatReloader

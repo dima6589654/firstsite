@@ -1,0 +1,26 @@
+{% extends "layout/basic.html" %}
+
+{% block content %}
+    <div class="container mt-4">
+        <h2 class="mb-4">Последние 10 объявлений</h2>
+
+        {% if bbs %}
+            <div class="row">
+                {% for bb in bbs %}
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ bb.title }}</h5>
+                                <p class="card-text">{{ bb.content }}</p>
+                                <a href="{% url 'main:detail' rubric_pk=bb.rubric.super_rubric.pk pk=bb.pk %}"
+                                   class="btn btn-primary">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>Нет доступных объявлений.</p>
+        {% endif %}
+    </div>
+{% endblock %}

@@ -4,123 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="&quot;authapp&quot;">
-      <change afterPath="$PROJECT_DIR$/todo_list/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/registration/goodbye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/registration/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/category_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/category_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/task_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/task_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/task_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/task_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/templates/todolist/task_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/todo_proj/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/todolist/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_list/todolist/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_django.iml" afterDir="false" />
+    <list default="true" id="677a5a03-bf11-4455-8da7-7086c204085a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_django.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_kan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0002_remove_customuser_date_of_birth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/0003_task_is_login_required.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/mixins.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.esm.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/static/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_icecream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/create_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/delete_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/edit_task.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/error_message.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/icecream_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/includes/inc_task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/search_results.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/task_titles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_due_today.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templates/tasks_ordered_by_due_date.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templatetags/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/templatetags/filtersandtags.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/bblist/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/frontend/task_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/frontend/task_list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/logs/custom.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/logs/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/logs/info.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/car.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/commands.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/media/attachments/Снимок экрана 2023-09-28 153642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_do/task_do/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/registration/goodbye.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/registration/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/category_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/category_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/task_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/task_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/task_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/task_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todolist/task_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todo_proj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todo_proj/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todo_proj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todo_proj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todo_proj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/todolist/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,87 +58,60 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="home_work_52" />
+        <entry key="$PROJECT_DIR$" value="home_work_56" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/yutyrtrfd.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2OF8w8nizmUuurvNAvNxbZ8SpMa" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2XZ0EjPmyGU9s1cjmwIY0jQsaIE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "home__work__42",
-    "last_opened_file_path": "C:/python_django",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/djangoProject1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\python_django\todo_list\todolist" />
-      <recent name="C:\python_django\todo_list\todo_proj" />
-      <recent name="C:\python_django\firstsite-lesson_47_hw\firstsite" />
-      <recent name="C:\python_django\task_do\customuser" />
-      <recent name="C:\python_django\task_do\bblist" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\python_django\todo_list\templates" />
-      <recent name="C:\python_django\todo_list\templates\todolist" />
-      <recent name="C:\python_django\todo_list\templates\layout" />
-      <recent name="C:\python_django" />
-      <recent name="C:\python_django\todo_list\todo_proj\templates\layout" />
+      <recent name="C:\djangoProject1\main" />
+      <recent name="C:\djangoProject1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="python_django" />
+      <module name="djangoProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
-      <option name="WORKING_DIRECTORY" value="C:\python_django\todo_list" />
+      <option name="SDK_NAME" value="Python 3.11 (djangoProject1)" />
+      <option name="WORKING_DIRECTORY" value="C:\djangoProject1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -225,7 +126,7 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
         </ENTRIES>
       </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todo_list/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,20 +135,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="manage123" type="PythonConfigurationType" factoryName="Python">
-      <module name="python_django" />
+    <configuration name="djangoProject1" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
-      <option name="WORKING_DIRECTORY" value="C:\python_django\todo_list" />
+      <option name="SDK_HOME" value="C:\djangoProject1\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (djangoProject1)" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <EXTENSION ID="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -258,276 +158,52 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
         </ENTRIES>
       </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/todo_list/manage.py" />
-      <option name="PARAMETERS" value="runserver" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
-      <module name="python_django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\python_django\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samplesite" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/samplesite/manage.py" />
-      <option name="PARAMETERS" value="runserver" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="runserver_do" type="PythonConfigurationType" factoryName="Python">
-      <module name="python_django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\python_django\venv\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (python_django)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_do" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_do/manage.py" />
-      <option name="PARAMETERS" value="runserver" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.runserver" />
+      <item itemvalue="Django Server.djangoProject1" />
       <item itemvalue="Python.manage" />
-      <item itemvalue="Python.runserver_do" />
-      <item itemvalue="Python.manage123" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="770f6950-cb9e-49a0-a1d4-056b327a1517" name="Changes" comment="" />
-      <created>1681145204989</created>
+      <changelist id="677a5a03-bf11-4455-8da7-7086c204085a" name="Changes" comment="" />
+      <created>1698821184585</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681145204989</updated>
-      <workItem from="1681145206204" duration="2860000" />
-      <workItem from="1681193837150" duration="8082000" />
-      <workItem from="1681218883109" duration="7719000" />
-      <workItem from="1681236584524" duration="155000" />
-      <workItem from="1681237209646" duration="303000" />
-      <workItem from="1681237560683" duration="12000" />
-      <workItem from="1681273041599" duration="1791000" />
-      <workItem from="1681283987569" duration="341000" />
-      <workItem from="1681285495123" duration="900000" />
-      <workItem from="1681287836283" duration="1221000" />
-      <workItem from="1681295812608" duration="3860000" />
-      <workItem from="1681574358688" duration="240000" />
-      <workItem from="1681574636010" duration="2080000" />
-      <workItem from="1681577803914" duration="869000" />
-      <workItem from="1681666107982" duration="2969000" />
-      <workItem from="1681669161453" duration="37000" />
-      <workItem from="1681832169873" duration="2000" />
-      <workItem from="1681840412883" duration="2686000" />
-      <workItem from="1681843153856" duration="3954000" />
-      <workItem from="1682926828049" duration="4075000" />
-      <workItem from="1685896480114" duration="4359000" />
-      <workItem from="1685900937957" duration="1484000" />
-      <workItem from="1685902450848" duration="20000" />
-      <workItem from="1685902517284" duration="891000" />
-      <workItem from="1685979805567" duration="1866000" />
-      <workItem from="1685981756260" duration="3948000" />
-      <workItem from="1686059188571" duration="68000" />
-      <workItem from="1686059482930" duration="2770000" />
-      <workItem from="1686236134026" duration="2537000" />
-      <workItem from="1686321973601" duration="4274000" />
-      <workItem from="1687017386697" duration="881000" />
-      <workItem from="1687107340634" duration="2434000" />
-      <workItem from="1687234958064" duration="1329000" />
-      <workItem from="1687320999657" duration="4750000" />
-      <workItem from="1687407698381" duration="72000" />
-      <workItem from="1687407781587" duration="5244000" />
-      <workItem from="1687457711452" duration="419000" />
-      <workItem from="1687506710106" duration="11048000" />
-      <workItem from="1687962245125" duration="5776000" />
-      <workItem from="1688113207548" duration="5180000" />
-      <workItem from="1688326074905" duration="3675000" />
-      <workItem from="1688406310026" duration="5002000" />
-      <workItem from="1688492519100" duration="13189000" />
-      <workItem from="1688573726218" duration="1409000" />
-      <workItem from="1689475439064" duration="5456000" />
-      <workItem from="1689606697348" duration="7032000" />
-      <workItem from="1690222029501" duration="821000" />
-      <workItem from="1690374728091" duration="6828000" />
-      <workItem from="1690383979944" duration="591000" />
-      <workItem from="1691769672358" duration="1279000" />
-      <workItem from="1692513573752" duration="5929000" />
-      <workItem from="1692810549260" duration="7462000" />
-      <workItem from="1693156144282" duration="49000" />
-      <workItem from="1693319669405" duration="21000" />
-      <workItem from="1693413500325" duration="2415000" />
-      <workItem from="1693639643428" duration="7359000" />
-      <workItem from="1693655624671" duration="2011000" />
-      <workItem from="1693883619895" duration="2977000" />
-      <workItem from="1694105104986" duration="13900000" />
-      <workItem from="1695104648251" duration="12547000" />
-      <workItem from="1695923558284" duration="5610000" />
-      <workItem from="1696597042521" duration="13148000" />
-      <workItem from="1696994453845" duration="913000" />
-      <workItem from="1696997091786" duration="3886000" />
-      <workItem from="1697110201040" duration="152000" />
-      <workItem from="1697110364546" duration="20000" />
-      <workItem from="1697110794213" duration="409000" />
-      <workItem from="1697111571383" duration="91000" />
-      <workItem from="1697111675165" duration="41000" />
-      <workItem from="1697111776521" duration="86000" />
-      <workItem from="1697112292554" duration="191000" />
-      <workItem from="1697112618749" duration="132000" />
-      <workItem from="1697112766102" duration="1988000" />
-      <workItem from="1697535058838" duration="11522000" />
-      <workItem from="1697618461015" duration="16000" />
-      <workItem from="1698084110796" duration="6034000" />
-      <workItem from="1698129083102" duration="367000" />
-      <workItem from="1698134107132" duration="677000" />
-      <workItem from="1698474312281" duration="365000" />
-      <workItem from="1698506535333" duration="9038000" />
-      <workItem from="1698592712430" duration="6636000" />
-      <workItem from="1698691581507" duration="5204000" />
-      <workItem from="1699107940699" duration="6103000" />
-      <workItem from="1699115719560" duration="5623000" />
-      <workItem from="1699244310248" duration="399000" />
-      <workItem from="1699261131684" duration="18000" />
-      <workItem from="1699537683725" duration="2680000" />
-      <workItem from="1699697285356" duration="2659000" />
-      <workItem from="1699700371061" duration="15099000" />
-      <workItem from="1699863863198" duration="27000" />
-      <workItem from="1699892377800" duration="11474000" />
-      <workItem from="1700074580359" duration="6624000" />
+      <updated>1698821184585</updated>
+      <workItem from="1698821207605" duration="6932000" />
+      <workItem from="1698912069362" duration="7964000" />
+      <workItem from="1699261150964" duration="3909000" />
+      <workItem from="1699433168330" duration="1657000" />
+      <workItem from="1699518104059" duration="4283000" />
+      <workItem from="1699537599380" duration="21000" />
+      <workItem from="1699863892002" duration="3666000" />
+      <workItem from="1699892311368" duration="65000" />
+      <workItem from="1700039012775" duration="1910000" />
+      <workItem from="1700074530725" duration="46000" />
+      <workItem from="1700081604986" duration="1122000" />
+      <workItem from="1700082915815" duration="310000" />
+      <workItem from="1700108471906" duration="3458000" />
+      <workItem from="1700112739104" duration="3107000" />
+      <workItem from="1700116133560" duration="2823000" />
     </task>
-    <task id="LOCAL-00001" summary="origin master">
-      <created>1681285637535</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681285637535</updated>
-    </task>
-    <task id="LOCAL-00002" summary="&quot;ЗАДАНИЕ НА URLS&quot;">
-      <created>1687409152299</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1687409152299</updated>
-    </task>
-    <task id="LOCAL-00003" summary="&quot;лист задач&quot;">
-      <created>1687966402133</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1687966402133</updated>
-    </task>
-    <task id="LOCAL-00004" summary="&quot;authapp&quot;">
-      <created>1689604218695</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1689604218695</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="origin master" />
-    <MESSAGE value="&quot;ЗАДАНИЕ НА URLS&quot;" />
-    <MESSAGE value="&quot;лист задач&quot;" />
-    <MESSAGE value="&quot;authapp&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;authapp&quot;" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_kan$task_38_01.coverage" NAME="task_38_01 Coverage Results" MODIFIED="1681234182530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
-    <SUITE FILE_PATH="coverage/python_kan$uytudfxc.coverage" NAME="uytudfxc Coverage Results" MODIFIED="1681576271108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_django$runser.coverage" NAME="runser Coverage Results" MODIFIED="1689604090753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01.coverage" NAME="task_36_01 Coverage Results" MODIFIED="1681274561288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/HomeWork_36" />
-    <SUITE FILE_PATH="coverage/python_kan$task_37_01.coverage" NAME="task_37_01 Coverage Results" MODIFIED="1681577972840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp" />
-    <SUITE FILE_PATH="coverage/python_django$fill_db.coverage" NAME="fill_db Coverage Results" MODIFIED="1685901959995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite/bboard/management/commands" />
-    <SUITE FILE_PATH="coverage/python_kan$exam_01.coverage" NAME="exam_01 Coverage Results" MODIFIED="1681299360163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_kan$main.coverage" NAME="main Coverage Results" MODIFIED="1681145374670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__2_.coverage" NAME="task_36_01 (2) Coverage Results" MODIFIED="1681288711345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)/HomeWork_36" />
-    <SUITE FILE_PATH="coverage/python_kan$task_37_01__1_.coverage" NAME="task_37_01 (1) Coverage Results" MODIFIED="1681668120379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__1_.coverage" NAME="task_36_01 (1) Coverage Results" MODIFIED="1681288220112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
-    <SUITE FILE_PATH="coverage/python_kan$dfg__1_.coverage" NAME="dfg (1) Coverage Results" MODIFIED="1681237441339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan" />
-    <SUITE FILE_PATH="coverage/python_kan$dz2.coverage" NAME="dz2 Coverage Results" MODIFIED="1681575830844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
-    <SUITE FILE_PATH="coverage/python_kan$dfg.coverage" NAME="dfg Coverage Results" MODIFIED="1681207040403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
-    <SUITE FILE_PATH="coverage/python_kan$chains_07.coverage" NAME="chains_07 Coverage Results" MODIFIED="1681273141226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$exam_02.coverage" NAME="exam_02 Coverage Results" MODIFIED="1681296595040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/kan/ll40" />
-    <SUITE FILE_PATH="coverage/python_kan$enum_01.coverage" NAME="enum_01 Coverage Results" MODIFIED="1681273192493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_django$manage.coverage" NAME="manage Coverage Results" MODIFIED="1700081226788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\python_django\todo_list" />
-    <SUITE FILE_PATH="coverage/python_django$sdhfjg.coverage" NAME="sdhfjg Coverage Results" MODIFIED="1692513585054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_03.coverage" NAME="task_38_03 Coverage Results" MODIFIED="1681236424963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (4)" />
-    <SUITE FILE_PATH="coverage/python_kan$groupby_08.coverage" NAME="groupby_08 Coverage Results" MODIFIED="1681273177208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_django$models.coverage" NAME="models Coverage Results" MODIFIED="1685897908425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite/bboard" />
-    <SUITE FILE_PATH="coverage/python_kan$cycle_03.coverage" NAME="cycle_03 Coverage Results" MODIFIED="1681273433366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$task_36_01__3_.coverage" NAME="task_36_01 (3) Coverage Results" MODIFIED="1681288910850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол" />
-    <SUITE FILE_PATH="coverage/python_kan$dz1.coverage" NAME="dz1 Coverage Results" MODIFIED="1681575799327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
-    <SUITE FILE_PATH="coverage/python_django$manage123.coverage" NAME="manage123 Coverage Results" MODIFIED="1699809902732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\python_django\todo_list" />
-    <SUITE FILE_PATH="coverage/python_kan$dz3.coverage" NAME="dz3 Coverage Results" MODIFIED="1681576098233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz" />
-    <SUITE FILE_PATH="coverage/python_kan$task_37_02.coverage" NAME="task_37_02 Coverage Results" MODIFIED="1681667217230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ll37" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_02.coverage" NAME="task_38_02 Coverage Results" MODIFIED="1681234600272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (2)" />
-    <SUITE FILE_PATH="coverage/python_kan$combinations_05.coverage" NAME="combinations_05 Coverage Results" MODIFIED="1681274403482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/lesson_36" />
-    <SUITE FILE_PATH="coverage/python_kan$dz1__1_.coverage" NAME="dz1 (1) Coverage Results" MODIFIED="1681576722198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dz2" />
-    <SUITE FILE_PATH="coverage/python_django$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1695835488681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/samplesite" />
-    <SUITE FILE_PATH="coverage/python_kan$task_38_01__1_.coverage" NAME="task_38_01 (1) Coverage Results" MODIFIED="1681234718063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Рабочий стол/Новая папка (3)" />
-    <SUITE FILE_PATH="coverage/python_django$runserver_do.coverage" NAME="runserver_do Coverage Results" MODIFIED="1699802915114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task_do" />
-    <SUITE FILE_PATH="coverage/python_kan$tjkytu.coverage" NAME="tjkytu Coverage Results" MODIFIED="1681198084222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gik_hub_1" />
+    <SUITE FILE_PATH="coverage/djangoProject1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1700118949720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\djangoProject1" />
   </component>
 </project>
